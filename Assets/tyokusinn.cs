@@ -15,11 +15,11 @@ public class tyokusinn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+         
     }
 
    private void FixedUpdate()
     {
-        this.transform.Translate(speedX / 5, speedY, speedZ);
+        this.transform.Translate(speedX / 10, speedY, speedZ);
     }
 }
