@@ -8,7 +8,7 @@ public class Forever_MoveSin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log(time);
     }
 
     // Update is called once per frame
